@@ -1,0 +1,6 @@
+check50:
+  files:
+    - !require TempConverter.java
+  dependencies:
+    - check50-java
+  checks: __init__.py
